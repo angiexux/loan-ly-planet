@@ -1,0 +1,22 @@
+snapshot for 2023-01-18: 242 loans
+  20/242 loans (16s)
+  40/242 loans (50s)
+  60/242 loans (82s)
+  80/242 loans (111s)
+  100/242 loans (166s)
+  120/242 loans (176s)
+  140/242 loans (205s)
+  160/242 loans (238s)
+  180/242 loans (270s)
+  200/242 loans (299s)
+  220/242 loans (326s)
+  240/242 loans (356s)
+wrote /Users/hamadalsaiari/Downloads/MIT-hackathon/web/public/data/real_snapshot.json (1.32 MB) in 357s
+{'item': 'rain', 'sources': ['CHIRPS v2.0 (UCSB CHC) via IRI Data Library'], 'withValue': 242, 'total': 242, 'notes': {}, 'status': 'ok'}
+{'item': 'tmin', 'sources': ['ERA5-Land (ECMWF) via Open-Meteo archive API'], 'withValue': 242, 'total': 242, 'notes': {}, 'status': 'ok'}
+{'item': 'tmax', 'sources': ['ERA5-Land (ECMWF) via Open-Meteo archive API'], 'withValue': 242, 'total': 242, 'notes': {}, 'status': 'ok'}
+{'item': 'soil', 'sources': ['ERA5-Land (ECMWF) via Open-Meteo archive API'], 'withValue': 242, 'total': 242, 'notes': {'fallback': 242}, 'status': 'ok'}
+{'item': 'ndvi_s2', 'sources': ['Sentinel-2 L2A (ESA Copernicus) via Microsoft Planetary Computer'], 'withValue': 227, 'total': 242, 'notes': {'no clear Sentinel-2 pass within ±5 days': 14, 'RuntimeError': 1}, 'status': 'partial'}
+{'item': 'ndvi_modis', 'sources': ['MODIS Terra MOD13Q1 v061 via ORNL DAAC'], 'withValue': 241, 'total': 242, 'notes': {'composite 2023-01-17 to +15 days; pixel reliability -1 (?)': 1}, 'status': 'partial'}
+{'item': 'water', 'sources': ['Sentinel-1 RTC (ESA Copernicus) via Microsoft Planetary Computer'], 'withValue': 183, 'total': 242, 'notes': {'no Sentinel-1 pass within ±6 days': 59}, 'status': 'partial'}
+{'item': '_http', 'stats': {'open-meteo': {'requests': 222, 'cached': 20, 'seconds': 33.7, 'errors': 0}, 'chirps': {'requests': 229, 'cached': 13, 'seconds': 169.6, 'errors': 0}, 'planetary-computer': {'requests': 1004, 'cached': 45, 'seconds': 314.7, 'errors': 1}, 'modis': {'requests': 453, 'cached': 31, 'seconds': 879.6, 'errors': 0}}}

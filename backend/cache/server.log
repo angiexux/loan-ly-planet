@@ -1,0 +1,768 @@
+Loan-ly Planet API on http://127.0.0.1:8770  (latest analysis: /Users/hamadalsaiari/Downloads/MIT-hackathon/web/public/data/analysis.json)
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf/portfolio HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf/insurance_application?loan=L004&product=multi_peril HTTP/1.1" 200 -
+[api] "GET /api/pdf/claim?loan=L004 HTTP/1.1" 400 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "POST /api/ask HTTP/1.1" 200 -
+[api] "POST /api/ask HTTP/1.1" 400 -
+[api] "GET /api/pdf/transfer?loan=L004&week=33 HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf/downgrade?week=33&loan=L107 HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L004&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L004&week=33 HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L004&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L004&week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L006&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L006&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/insurance_application?week=33&loan=L093 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L093&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L093&week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/downgrade?week=33&loan=L093 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L093&week=51 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L093&week=51 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L199&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L199&week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/portfolio?week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/early_warning?week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/early_warning?week=33 HTTP/1.1" 200 -
+[api] "GET /api/parameters.xlsx HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L006&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L006&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=36 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=36 HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/portfolio?week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/portfolio?week=33 HTTP/1.1" 200 -
+[api] "GET / HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L006&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L006&week=33 HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L167&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L167&week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/claim?week=33&loan=L167 HTTP/1.1" 400 -
+[api] "GET /api/explain?loan=L050&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L050&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L005&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+Traceback (most recent call last):
+[api] "GET /api/analysis HTTP/1.1" 200 -
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 134, in _guard
+    fn()
+    ~~^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 158, in _get
+    return self._send(200, p.read_bytes())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 119, in _send
+    self.wfile.write(body)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+[api] "GET /api/analysis HTTP/1.1" 500 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51752)
+Traceback (most recent call last):
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 134, in _guard
+    fn()
+    ~~^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 158, in _get
+    return self._send(200, p.read_bytes())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 119, in _send
+    self.wfile.write(body)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+[api] "GET /api/analysis HTTP/1.1" 500 -
+----------------------------------------
+Exception occurred during processing of request from ('127.0.0.1', 51755)
+Traceback (most recent call last):
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 134, in _guard
+    fn()
+    ~~^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 158, in _get
+    return self._send(200, p.read_bytes())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 119, in _send
+    self.wfile.write(body)
+    ~~~~~~~~~~~~~~~~^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+Traceback (most recent call last):
+BrokenPipeError: [Errno 32] Broken pipe
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 134, in _guard
+    fn()
+    ~~^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 158, in _get
+    return self._send(200, p.read_bytes())
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+
+During handling of the above exception, another exception occurred:
+
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 119, in _send
+    self.wfile.write(body)
+    ~~~~~~~~~~~~~~~~^^^^^^
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 143, in do_GET
+    self._guard(self._get)
+    ~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 139, in _guard
+    self._json(500, dict(ok=False, error=f"server error: {e}", errors=[str(e)]))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 122, in _json
+    self._send(status, json.dumps(obj, ensure_ascii=False).encode())
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 118, in _send
+    self.end_headers()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 598, in end_headers
+    self.flush_headers()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 602, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 697, in process_request_thread
+    self.finish_request(request, client_address)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 362, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 766, in __init__
+    self.handle()
+    ~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 496, in handle
+    self.handle_one_request()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 484, in handle_one_request
+    method()
+    ~~~~~~^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 143, in do_GET
+    self._guard(self._get)
+    ~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 139, in _guard
+    self._json(500, dict(ok=False, error=f"server error: {e}", errors=[str(e)]))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 122, in _json
+    self._send(status, json.dumps(obj, ensure_ascii=False).encode())
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hamadalsaiari/Downloads/MIT-hackathon/backend/server.py", line 118, in _send
+    self.end_headers()
+    ~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 598, in end_headers
+    self.flush_headers()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/opt/anaconda3/lib/python3.14/http/server.py", line 602, in flush_headers
+    self.wfile.write(b"".join(self._headers_buffer))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/anaconda3/lib/python3.14/socketserver.py", line 845, in write
+    self._sock.sendall(b)
+    ~~~~~~~~~~~~~~~~~~^^^
+BrokenPipeError: [Errno 32] Broken pipe
+----------------------------------------
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L019&week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/downgrade?week=33&loan=L037 HTTP/1.1" 200 -
+[api] "GET /api/pdf/insurance_application?week=33&loan=L037 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L037&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L037&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L047&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L047&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf/downgrade?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/pdf/transfer?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/pdf/claim?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/pdf/restructure?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/pdf/insurance_application?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/report.xlsx?week=33 HTTP/1.1" 200 -
+[api] "GET /api/parameters.xlsx HTTP/1.1" 200 -
+[api] "GET /api/pdf/cover_offer?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/pdf/contact?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/pdf/loan_memo?week=33&loan=L047 HTTP/1.1" 200 -
+[api] "GET /api/pdf/portfolio?week=33 HTTP/1.1" 200 -
+[api] "GET /api/pdf/early_warning?week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L183&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L183&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L190&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L190&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L001&week=33 HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/explain?loan=L099&week=33 HTTP/1.1" 200 -
+[api] "GET /api/explain?loan=L099&week=33 HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/health HTTP/1.1" 200 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/analysis HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -
+[api] "GET /api/pdf HTTP/1.1" 200 -
+[api] "GET /api/template.xlsx HTTP/1.1" 404 -

@@ -1,0 +1,6 @@
+{
+  "title": "Loan-ly Planet · climate risk monitor for agricultural loans",
+  "description": "Shows a lender which farm loans are under climate stress, why, and what it does to IFRS 9 provisions.",
+  "robots": { "index": false },
+  "accessibility": { "addBypassLinks": false, "ignoreReducedMotion": false }
+}

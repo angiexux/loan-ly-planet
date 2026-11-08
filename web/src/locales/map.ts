@@ -1,0 +1,47 @@
+// Map layer control, province overview and the week-based "Data as of" label.
+import { hookFor } from "../i18n";
+import type { Dict } from "../i18n";
+
+const D = {
+  "asofWeek": { en: (w: number, of: number, y: number) => `Week ${w} of ${of}, ${y}`, es: (w: number, of: number, y: number) => `Semana ${w} de ${of}, ${y}`, pt: (w: number, of: number, y: number) => `Semana ${w} de ${of}, ${y}` },
+  "layers": { en: "Layers", es: "Capas", pt: "Camadas" },
+  "base": { en: "Base map", es: "Mapa base", pt: "Mapa base" },
+  "satellite": { en: "Satellite", es: "Satélite", pt: "Satélite" },
+  "overlays": { en: "Overlays", es: "Capas superpuestas", pt: "Sobreposições" },
+  "lyr.bounds": { en: "Province / state boundaries", es: "Límites de provincias / estados", pt: "Limites de estados / províncias" },
+  "lyr.pies": { en: "Province pie charts", es: "Gráficos circulares por provincia", pt: "Gráficos de pizza por estado" },
+  "lyr.fields": { en: "Borrower fields", es: "Campos de los deudores", pt: "Talhões dos tomadores" },
+  "lyr.clusters": { en: "Stress clusters", es: "Conglomerados de estrés", pt: "Agrupamentos de estresse" },
+  "full": { en: "Full screen", es: "Pantalla completa", pt: "Tela cheia" },
+  "exitFull": { en: "Exit full screen (Esc)", es: "Salir de pantalla completa (Esc)", pt: "Sair da tela cheia (Esc)" },
+  "h.atrisk": { en: "At risk (CHI < 45)", es: "En riesgo (CHI < 45)", pt: "Em risco (CHI < 45)" },
+  "h.watch": { en: "Watch (CHI 45–60)", es: "Vigilancia (CHI 45–60)", pt: "Atenção (CHI 45–60)" },
+  "h.healthy": { en: "Healthy (CHI > 60)", es: "Saludable (CHI > 60)", pt: "Saudável (CHI > 60)" },
+  "h.nodata": { en: "No CHI (out of season)", es: "Sin CHI (fuera de campaña)", pt: "Sem CHI (fora da safra)" },
+  "pop.crop": { en: "Crop", es: "Cultivo", pt: "Cultura" },
+  "pop.area": { en: "Field area", es: "Superficie", pt: "Área do talhão" },
+  "pop.loan": { en: "Loan amount", es: "Monto del préstamo", pt: "Valor do empréstimo" },
+  "pop.health": { en: "Crop health", es: "Salud del cultivo", pt: "Saúde da lavoura" },
+  "colourBy": { en: "Colour by", es: "Colorear por", pt: "Colorir por" },
+  "by.stress": { en: "Climate stress index (score 1–99)", es: "Índice de estrés climático (puntaje 1–99)", pt: "Índice de estresse climático (score 1–99)" },
+  "leg.stress": { en: "Climate stress index:", es: "Índice de estrés climático:", pt: "Índice de estresse climático:" },
+  "pop.stress": { en: "Climate stress", es: "Estrés climático", pt: "Estresse climático" },
+  "pop.open": { en: "Open climate analysis →", es: "Abrir análisis climático →", pt: "Abrir análise climática →" },
+  "leg.dot": { en: "Dot size = loan amount", es: "Tamaño del punto = monto del préstamo", pt: "Tamanho do ponto = valor do empréstimo" },
+  "leg.pie": { en: "Pie = borrowers per province", es: "Círculo = deudores por provincia", pt: "Pizza = tomadores por estado" },
+  "conc.h": { en: "Concentration by province", es: "Concentración por provincia", pt: "Concentração por estado" },
+  "conc.sub": { en: "outstanding by stress level · click a province for its loans", es: "saldo por nivel de estrés · haga clic en una provincia para ver sus préstamos", pt: "saldo por nível de estresse · clique em um estado para ver seus empréstimos" },
+  "pv.back": { en: "← All provinces", es: "← Todas las provincias", pt: "← Todos os estados" },
+  "pv.borrowers": { en: "Borrowers", es: "Deudores", pt: "Tomadores" },
+  "pv.exposure": { en: "Exposure", es: "Exposición", pt: "Exposição" },
+  "pv.share": { en: (s: string) => `${s} of the portfolio`, es: (s: string) => `${s} de la cartera`, pt: (s: string) => `${s} da carteira` },
+  "pv.avgFhi": { en: "Average CHI", es: "CHI promedio", pt: "CHI médio" },
+  "pv.byHealth": { en: "Borrowers by crop health", es: "Deudores por salud del cultivo", pt: "Tomadores por saúde da lavoura" },
+  "pv.loans": { en: "Loans", es: "Préstamos", pt: "Empréstimos" },
+  "pv.sort": { en: "Sort by", es: "Ordenar por", pt: "Ordenar por" },
+  "pv.s.risk": { en: "Stress, worst first", es: "Estrés, peor primero", pt: "Estresse, pior primeiro" },
+  "pv.s.fhi": { en: "CHI, worst first", es: "CHI, peor primero", pt: "CHI, pior primeiro" },
+  "pv.s.amount": { en: "Loan amount", es: "Monto del préstamo", pt: "Valor do empréstimo" },
+} satisfies Dict;
+
+export const useMp = hookFor(D);

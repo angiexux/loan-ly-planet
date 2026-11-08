@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.pyc
+.env*
+web/node_modules/
+web/.tools/
+web/dist/
+*.tsbuildinfo
+data/cache/
